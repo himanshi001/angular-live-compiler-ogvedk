@@ -1,0 +1,46 @@
+.main-container {
+  height: 100%;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+}
+.input-box-container {
+  width: 20vw;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+input[type='text'] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.hoverboard-container {
+  min-width: 70vw;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.boxes {
+  height: 40px;
+  width: 40px;
+  border: 8px solid transparent;
+}
+.row-container {
+  display: flex;
+  gap: 5px;
+}
+.boxes:hover {
+  border: 8px solid black;
+}
+
+.active {
+  border: 8px solid black;
+}
